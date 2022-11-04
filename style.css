@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&family=Trispace&display=swap');
+
+
+:root {
+    --font-principal: 'Trispace', sans-serif;
+    --font-secundaria: 'Sora', sans-serif;
+    --bg-color: #256D85;
+    --btn-color: #5DA7DB;   
+    --primary-color: #DFF6FF;
+    --secondary-color: #06283D; 
+}
+
+body {
+    background-color:var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-principal);
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 3px solid var(--primary-color);
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 15px 30px;
+    border: 5px solid var(--primary-color);
+    background: var(--btn-color);
+    border-radius: 35px;
+    margin-top: 40px;
+    font-family: var(--font-secundaria);
+    font-size: 1.25em;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+.btn-jogar:hover {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
